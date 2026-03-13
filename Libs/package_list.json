@@ -1,0 +1,23 @@
+{
+    "packages" : [
+        {
+            "name" : "standard_lib",
+            "directory_name" : "standard_lib",
+            "version" : "1.0",
+            "format" : "binary",
+            "deps" : []
+        },
+
+        {
+            "name" : "vulkan",
+            "directory_name" : "",
+            "version" : "",
+            "format" : "binary",
+            "deps" : [{
+                "name" : "standard_lib",
+                "minimum_required" : "1.0",
+                "maximum_required" : "1.0"
+            }]
+        }
+    ]
+}
